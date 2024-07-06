@@ -12,7 +12,7 @@ Scholar's Haven Games (Unity Group 32)
 
 # Team Members
 
-|    | Name   | Title  | Socials     |
+|    | <div align="center">Name</div>   | <div align="center">Title</div>  | <div align="center">Socials</div>     |
 | :-----------: | :---------- | :---------- | :----------: |
 |  ![KeremPhoto](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/1c757e06-8291-4199-9bef-64662d9351aa)  | Kerem Aslan URAL     | Scrum Master     | [![linkedin](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d8a4ece1-f1e9-4074-8a23-2df43402cb5d)](https://www.linkedin.com/in/kerem-aslan-ural/) [![github](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/26c16fce-5942-4720-ac2d-7c64596a9233)](https://github.com/keremaslanural)    |
 |  ![IsrafilPhoto](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/7360e39e-dd07-40d5-a671-7ad2d16dca39)    | İsrafil ERCAN     | Product Owner     |  [![linkedin](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d8a4ece1-f1e9-4074-8a23-2df43402cb5d)](https://www.linkedin.com/in/israfil-ercan-a427ba238/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![github](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/26c16fce-5942-4720-ac2d-7c64596a9233)](https://github.com/israfilercan)   |
