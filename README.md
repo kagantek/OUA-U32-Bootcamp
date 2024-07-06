@@ -25,12 +25,15 @@ Scholar's Haven Games (Unity Group 32)
 
 # Game Description
 
+Grimwood is a 3D, single-player, fantasy adventure game with third-person player controls. The player, with our character named Erika, will fulfill the tasks given to him by NPCs in 5 different regions on the map we designed. These regions also represent the levels of our game. As you complete the missions, these regions will become active on the map. Finally, when all the missions are completed, a new boss area will be active. Our player will fight the main boss and complete the scenario.
+
 # Game Story
 
 *Grimwood Forest was a place where legends and dark forces ruled. A curse plunged the forest into darkness, unleashing evil spirits. The hope of the village was the young adventurer Erika. When Erika was a child, she swore revenge on the cursed monsters that murdered her family. She sets out to find the origin of the curse and save the forest. Along the way, he explored ancient cemeteries, fought dark creatures, and tried to unravel the mysteries of the forest. At every step, she encountered the inhabitants of the forest and the village and tried to solve their problems. Finally, Erika found the source of the curse: It was a curse inflicted on the forest by an evil monster. By completing challenging missions, he activated the portal deep in the forest, found the location of the monster, defeated it and broke the curse of the forest, bringing peace back to the land.*
 
 # Game Features
 
++ 3D
 + Third person controller
 + Story based
 + Single player
@@ -46,6 +49,10 @@ Scholar's Haven Games (Unity Group 32)
 + Fantasy game lovers
 + Age group 12 years and above
 + PC gamers
+
+# Note to Jury
+
+Our Grimwood game is being developed to be published on the Steam platform, so there are no in-game advertisements.
 
 ---
 <details>
