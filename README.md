@@ -21,7 +21,7 @@ Scholar's Haven Games (Unity Group 32)
 
 # Product Backlog URL
 
-[U32 Unity Miro Backlog Board](https://miro.com/app/board/uXjVK5_WHOE=/)
+[U32 Unity Miro Backlog Board](https://miro.com/welcomeonboard/aGtJOVpCYmRTTmFZSTJmMFk2R3ViRjJuUGFxN0lVaWF4U0pJdmJnQkd6cGFjSHRLM09oOElCcFVYRXp0SG9zTXwzNDU4NzY0NTgyNDYxOTE5MTY4fDI=?share_link_id=83965379637)
 
 # Game Description
 
