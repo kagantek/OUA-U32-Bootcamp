@@ -71,13 +71,29 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
    + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
   
-  ### Sprint 1 - Game Screenshots
+   <details> <summary><h3>Sprint 1 - Game Screenshots</h3></summary>
+    
+   </details>
 
-  ### Sprint 1 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots
+  <details> <summary><h3>Sprint 1 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary>
+    
+  ![SS-5-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/6c5a1743-e9b8-4d4c-b566-f9b320858236)
+  ![SS-1-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/fc148cb7-2c12-408a-b537-26b26c411c32)
+  ![SS-2-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/5086463a-afc0-4517-aa0a-2bdb041189f3)
+  ![SS-3-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/a1790b09-549d-441a-9970-56cb351430ad)
+  ![SS-4-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/994efad8-6fb2-4fcf-a090-d6c07fda95d8)
+  
+  </details>
 
-  ### Sprint 1 - Sprint Board Update Screenshots
+  <details> <summary><h3>Sprint 1 - Sprint Board Update Screenshots</h3></summary>
+    
+  </details>
 
-  ### Sprint 1 - Burndown Chart
+  <details> <summary><h3>Sprint 1 - Burndown Chart</h3></summary>
+  
+  ![SS-6-FirstSprint](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/bf529542-4b20-4b3c-bd93-36e1419b6c5b)
+  
+  </details>
 
   ### Sprint Review
   
