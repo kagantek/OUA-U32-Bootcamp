@@ -61,13 +61,13 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   
   ### Sprint Notes
   
-   + <b>Expected points from user stories for this Sprint:</b> `200 points`.
+   + <b>Expected points from user stories for this Sprint:</b> `100 points`.
    + <b>The applications chosen for Daily Scrum meetings:</b> `Discord` and `Whatsapp`.
    + <b>The process of Daily Scrum meetings:</b> We talked about the project every day via WhatsApp Messenger and had voice meetings every other day via DC. We also shared our screen in DC meetings to control the development and design progress of tasks.
    + <b>The application chosen for project management:</b> `Miro`.
    + <b>The applications chosen for UI design:</b>`Figma` and `Photoshop`.
    + <b>The applications chosen for Game Logo design:</b> `Blender`.
-   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is 100 points, the second sprint is 200 points, and the third sprint is 300 points. We planned to increase the total points to be completed in each     sprint. It is aimed to complete the process with a total of 500 points.
+   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `500 points`.
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
    + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
   
