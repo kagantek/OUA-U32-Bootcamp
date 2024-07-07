@@ -61,25 +61,56 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   
   ### Sprint Notes
   
-   + <b>Expected points from user stories for this Sprint:</b> `200 points`
+   + <b>Expected points from user stories for this Sprint:</b> `200 points`.
    + <b>The applications chosen for Daily Scrum meetings:</b> `Discord` and `Whatsapp`.
+   + <b>The process of Daily Scrum meetings:</b> We talked about the project every day via WhatsApp Messenger and had voice meetings every other day via DC. We also shared our screen in DC meetings to control the development and design progress of tasks.
    + <b>The application chosen for project management:</b> `Miro`.
    + <b>The applications chosen for UI design:</b>`Figma` and `Photoshop`.
    + <b>The applications chosen for Game Logo design:</b> `Blender`.
-   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is 100 points, the second sprint is 200 points, and the third sprint is 300 points. We planned to increase the total points to be completed in each sprint. It     is aimed to complete the process with a total of 500 points.
-
-
+   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is 100 points, the second sprint is 200 points, and the third sprint is 300 points. We planned to increase the total points to be completed in each     sprint. It is aimed to complete the process with a total of 500 points.
+   + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
+   + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
+  
   ### Sprint 1 - Game Screenshots
 
-  ### Sprint 1 - Game Screenshots
+  ### Sprint 1 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots
+
+  ### Sprint 1 - Sprint Board Update Screenshots
+
+  ### Sprint 1 - Burndown Chart
+
+  ### Sprint Review
   
-  - Özellik 1
-  - Özellik 2
-  - Özellik 3
+  + <b>Sprint Review Participants:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`, `İrem Eylül ÖZTEK`, `Kağan TEK`.
+  + A comprehensive game map was designed using the Terrain tool.
+  + The village area, which represents the first level of our game, has been designed.
+  + The archer Erika model from the Mixamo platform was used as the main character.
+  + 3D assets, especially suitable for the fantasy and adventure genre, were researched and used in level design.
+  + Basic movement codes of the character have been written and added to the character.
+  + Our basic movement animations, along with our movement codes, have been edited and added to the character.
+ 
+  ### Sprint Retrospective
+
+  + Although the use of the GitHub desktop application by the team caused difficulties at the beginning of the sprint, this problem was solved thanks to the training we provided within ourselves.
+  + Even though we, as a team, were undecided for a while about our main character's motivation to go on an adventure, we decided that this motivation would be revenge.
+  + Since the size of some of the models used reduces the performance of the game, it was decided to use smaller and optimized models.
+  + Although there was a disagreement about whether our character would be a melee or a ranged fighter, it was ultimately decided that he would be a ranged fighter archer.
+  + It has been decided to increase the number of tasks and scores of team members in the next sprint.
+  + As a result, although we encountered minor problems and disagreements, the sprint tasks we set were completed and the sprint process was close to what we expected.
   
-  ### Kullanım
 
 </details>
 
-# Sprint 2
-  
+---
+
+<details>
+  <summary><h1>Sprint 2</h1></summary>
+</details>
+
+---
+
+<details>
+  <summary><h1>Sprint 3</h1></summary>
+</details>
+
+---
