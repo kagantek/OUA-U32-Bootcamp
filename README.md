@@ -73,6 +73,12 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   
    <details> <summary><h3>Sprint 1 - Game Screenshots</h3></summary>
     
+   ![MainMenuScene](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e04563c0-95de-4181-baee-72fb4ea4ece4)
+   ![GameMapDesign](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e4c67b3e-056e-47b2-9861-bb653fc83850)
+   ![Game-SS-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/76a49cd0-3b8e-4079-99e4-88d9df8106c0)
+   ![Gif-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d3342e85-8e2c-423f-b28b-d7a4278b8b11)
+   ![Gif-2](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/08606429-3c93-4c1c-ab65-8ba7f85ca22b)
+
    </details>
 
   <details> <summary><h3>Sprint 1 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary>
