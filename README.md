@@ -55,14 +55,31 @@ Grimwood is a 3D, single-player, fantasy adventure game with third-person player
 Our Grimwood game is being developed to be published on the Steam platform, so there are no in-game advertisements.
 
 ---
+
 <details>
-  <summary><h1>Proje Detayları</h1></summary>
+  <summary><h1>Sprint 1</h1></summary>
   
-  ### Özellikler
+  ### Sprint Notes
+  
+   + <b>Expected points from user stories for this Sprint:</b> `200 points`
+   + <b>The applications chosen for Daily Scrum meetings:</b> `Discord` and `Whatsapp`.
+   + <b>The application chosen for project management:</b> `Miro`.
+   + <b>The applications chosen for UI design:</b>`Figma` and `Photoshop`.
+   + <b>The applications chosen for Game Logo design:</b> `Blender`.
+   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is 100 points, the second sprint is 200 points, and the third sprint is 300 points. We planned to increase the total points to be completed in each sprint. It     is aimed to complete the process with a total of 500 points.
+
+
+  ### Sprint 1 - Game Screenshots
+
+  ### Sprint 1 - Game Screenshots
   
   - Özellik 1
   - Özellik 2
   - Özellik 3
   
   ### Kullanım
+
+</details>
+
+# Sprint 2
   
