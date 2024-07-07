@@ -92,6 +92,9 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   </details>
 
   <details> <summary><h3>Sprint 1 - Sprint Board Update Screenshots</h3></summary>
+
+  ![ProductBacklog-SS-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/2b2be075-1e21-4cdf-9efc-9d18d045394b)
+  ![ProductBacklog-SS-2](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d3115e84-c3e9-4918-931d-6c71c7a7c3d0)
     
   </details>
 
