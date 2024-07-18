@@ -26,13 +26,15 @@ public class Movement : MonoBehaviour
     public AnimationStrings animStrings;
 
     [SerializeField]
-    public float jumpSpeed;
-
+    private float walkSpeed = 2.0f;
     [SerializeField]
-    public float jumpButtonGracePeriod;
-
+    private float sprintSpeed = 4.0f;
     [SerializeField]
-    public float jumpHorizontalSpeed;
+    private float jumpSpeed;
+    [SerializeField]
+    private float jumpButtonGracePeriod;
+    [SerializeField]
+    private float rotationSpeed = 700.0f;
 
     private float ySpeed;
     private float? lastGroundedTime;
@@ -41,6 +43,7 @@ public class Movement : MonoBehaviour
     private bool isGrounded;
     private Vector3 movementDirection;
     private float inputMagnitude;
+    private bool isSprinting;
 
     void Start()
     {
@@ -50,7 +53,9 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        HandleMovement();
         HandleJumping();
+        ApplyMovement();
     }
 
     public void AnimateCharacter(float forward, float strafe)
@@ -59,9 +64,10 @@ public class Movement : MonoBehaviour
         anim.SetFloat(animStrings.strafe, strafe);
     }
 
-    public void SprintCharacter(bool isSprinting)
+    public void SprintCharacter(bool sprint)
     {
-        anim.SetBool(animStrings.sprint, isSprinting);
+        isSprinting = sprint;
+        anim.SetBool(animStrings.sprint, sprint);
     }
 
     public void JumpCharacter()
@@ -72,7 +78,26 @@ public class Movement : MonoBehaviour
         }
     }
 
-    public void HandleJumping()
+    private void HandleMovement()
+    {
+        float forward = Input.GetAxis("Vertical");
+        float strafe = Input.GetAxis("Horizontal");
+        movementDirection = new Vector3(strafe, 0, forward).normalized;
+        movementDirection = transform.TransformDirection(movementDirection); // Yerel koordinatlarý dünya koordinatlarýna çevir
+
+        inputMagnitude = Mathf.Clamp01(movementDirection.magnitude);
+
+        if (movementDirection != Vector3.zero)
+        {
+            anim.SetBool(animStrings.isMoving, true);
+        }
+        else
+        {
+            anim.SetBool(animStrings.isMoving, false);
+        }
+    }
+
+    private void HandleJumping()
     {
         ySpeed += Physics.gravity.y * Time.deltaTime;
 
@@ -107,14 +132,17 @@ public class Movement : MonoBehaviour
                 anim.SetBool(animStrings.isFalling, true);
             }
         }
+    }
 
-        Vector3 velocity = movementDirection * inputMagnitude * jumpHorizontalSpeed;
+    private void ApplyMovement()
+    {
+        Vector3 velocity = movementDirection * inputMagnitude * (isSprinting ? sprintSpeed : walkSpeed);
         velocity.y = ySpeed;
 
         cc.Move(velocity * Time.deltaTime);
     }
 
-    public void OnAnimatorMove()
+    private void OnAnimatorMove()
     {
         if (isGrounded)
         {
@@ -123,5 +151,4 @@ public class Movement : MonoBehaviour
             cc.Move(velocity);
         }
     }
-
 }
