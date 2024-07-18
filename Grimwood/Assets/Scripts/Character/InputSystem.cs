@@ -13,19 +13,25 @@ public class InputSystem : MonoBehaviour
         public string forwardInput = "Vertical";
         public string strafeInput = "Horizontal";
         public string sprintInput = "Sprint";
+        public string jumpInput = "Jump";
     }
 
-    [SerializeField] 
+    [SerializeField]
     public InputSettings input;
+
     void Start()
     {
         moveScript = GetComponent<Movement>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         moveScript.AnimateCharacter(Input.GetAxis(input.forwardInput), Input.GetAxis(input.strafeInput));
         moveScript.SprintCharacter(Input.GetButton(input.sprintInput));
+
+        if (Input.GetButtonDown(input.jumpInput))
+        {
+            moveScript.JumpCharacter();
+        }
     }
 }
