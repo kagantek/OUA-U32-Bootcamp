@@ -77,7 +77,7 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>The application chosen for project management:</b> `Miro`.
    + <b>The applications chosen for UI design:</b> `Figma` and `Photoshop`.
    + <b>The applications chosen for Game Logo design:</b> `Blender`.
-   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `500 points`.
+   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points`.
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
    + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
   
