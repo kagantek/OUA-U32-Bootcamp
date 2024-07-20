@@ -1,25 +1,24 @@
+# Game Name
+
+Grimwood
+
 # Game Logo
 
 ![GameLogo](https://github.com/user-attachments/assets/27d2bee3-6eae-4abc-9ab1-919534013445)
 
 <img src="https://github.com/user-attachments/assets/0e43abe9-c891-42b0-a8f5-69f7f1e64ffa" alt="Desktop Logo ‐ Animated" width="700" height="330">
 
-# Game Name
-
-Grimwood
-
 # Game Desktop Shortcut Logo
 
 ![GameDesktopLogo](https://github.com/user-attachments/assets/ebf46cae-28c1-4a73-b3a5-a4dcc9cc2883) <img src="https://github.com/user-attachments/assets/bbc391db-afef-4dd5-8583-a8b29820b5b0" alt="Desktop Logo ‐ Animated" width="285" height="285">
 
-# Team Logo
-
-<img src="https://github.com/user-attachments/assets/de350f32-beb1-4ae2-bf0d-b1f4da3f44ac" alt="TeamLogo" width="300" height="300"> &nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/3f0a9ba1-adaa-4f8e-b16e-46613d0dce94" alt="Desktop Logo ‐ Animated" width="300" height="300">
-
-
 # Team Name
 
 Scholar's Haven Games (Unity Group 32)
+
+# Team Logo
+
+<img src="https://github.com/user-attachments/assets/de350f32-beb1-4ae2-bf0d-b1f4da3f44ac" alt="TeamLogo" width="300" height="300"> &nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/3f0a9ba1-adaa-4f8e-b16e-46613d0dce94" alt="Desktop Logo ‐ Animated" width="300" height="300">
 
 # Team Members
 
