@@ -1,6 +1,6 @@
 # Game Name
 
-Grimwood
+### `Grimwood`
 
 # Game Logo
 
@@ -14,7 +14,7 @@ Grimwood
 
 # Team Name
 
-Scholar's Haven Games (Unity Group 32)
+### `Scholar's Haven Games` (Unity Group 32)
 
 # Team Logo
 
