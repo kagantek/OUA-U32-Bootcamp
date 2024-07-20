@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float jumpButtonGracePeriod;
     [SerializeField]
-    private float rotationSpeed = 700.0f;
+    //private float rotationSpeed = 700.0f;
 
     private float ySpeed;
     private float? lastGroundedTime;
@@ -83,7 +83,7 @@ public class Movement : MonoBehaviour
         float forward = Input.GetAxis("Vertical");
         float strafe = Input.GetAxis("Horizontal");
         movementDirection = new Vector3(strafe, 0, forward).normalized;
-        movementDirection = transform.TransformDirection(movementDirection); // Yerel koordinatlarý dünya koordinatlarýna çevir
+        movementDirection = transform.TransformDirection(movementDirection); // Yerel koordinatlarï¿½ dï¿½nya koordinatlarï¿½na ï¿½evir
 
         inputMagnitude = Mathf.Clamp01(movementDirection.magnitude);
 
