@@ -150,7 +150,21 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Free 3D asset sources used to add to the scene: `Unity Asset Store`, `Mixamo` and `Sketchfab`
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
+  
+  <details> <summary><h3>Sprint 2 - Sprint Board Update Screenshots</h3></summary>
 
+  ![Sprint2_PB1](https://github.com/user-attachments/assets/600a3ed5-0dcf-4632-bfd5-93d7b555bf2d)
+  ![Sprint2_PB2](https://github.com/user-attachments/assets/eb006852-a620-44cc-8f65-bcd3afa1e6cb)
+  ![Sprint2_PB3](https://github.com/user-attachments/assets/0f173c88-4165-4d48-92b7-989914190aa7)
+    
+  </details>
+  
+  <details> <summary><h3>Sprint 2 - Burndown Chart</h3></summary>
+  
+  ![Sprint2-BurndownChart](https://github.com/user-attachments/assets/14b4edf2-ecdb-414d-8829-a02dfe1c70d0)
+
+  </details>
+  
   ### Sprint Review
   
   + <b>Sprint Review Participants:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`, `İrem Eylül ÖZTEK`, `Kağan TEK`.  
