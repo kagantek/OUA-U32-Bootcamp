@@ -6,7 +6,7 @@
 
 ![GameLogo](https://github.com/user-attachments/assets/27d2bee3-6eae-4abc-9ab1-919534013445)
 
-<img src="https://github.com/user-attachments/assets/0e43abe9-c891-42b0-a8f5-69f7f1e64ffa" alt="Desktop Logo ‐ Animated" width="700" height="330">
+<img src="https://github.com/user-attachments/assets/0e43abe9-c891-42b0-a8f5-69f7f1e64ffa" alt="Game Logo ‐ Animated" width="700" height="330">
 
 # Game Desktop Shortcut Logo
 
@@ -18,7 +18,7 @@
 
 # Team Logo
 
-<img src="https://github.com/user-attachments/assets/de350f32-beb1-4ae2-bf0d-b1f4da3f44ac" alt="TeamLogo" width="300" height="300"> &nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/3f0a9ba1-adaa-4f8e-b16e-46613d0dce94" alt="Desktop Logo ‐ Animated" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/de350f32-beb1-4ae2-bf0d-b1f4da3f44ac" alt="TeamLogo" width="300" height="300"> &nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/3f0a9ba1-adaa-4f8e-b16e-46613d0dce94" alt="Team Logo ‐ Animated" width="300" height="300">
 
 # Team Members
 
@@ -155,8 +155,18 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
 
    <details> <summary><h3>Sprint 2 - Game Screenshots</h3></summary>
-    
- 
+   
+   <img src="https://github.com/user-attachments/assets/ac24a108-3b43-45d7-94aa-6f6f6d87e8df" alt="Game Menu" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/4b902e32-f78a-470b-af8b-92e6c1d35ccd" alt="Game Map ‐ Animated" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/cdcacc84-57f8-43b2-be7c-120d1a8cd2b6" alt="Ancient Dwarf Ruins Territory" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/cbf9a4e7-f22b-42a9-baea-240151184d8e" alt="Elementaria Territory" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/c3bb1c44-6729-489f-b8ad-ddedaa0b9284" alt="Graveyard Territory" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/efe35dc7-14f3-4c9e-b1df-aaccb7c08b4e" alt="Death Forest Territory" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/22932693-47a5-4bbe-af95-6b7763b7b9b7" alt="Character Jump ‐ Animated" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/e3c2585e-cabe-4f8c-aa97-24e12b7e0f65" alt="Object Collection ‐ Animated" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/cf52c7e6-4cad-4f6e-a24d-d90855927a23" alt="Animal Movement ‐ Animated" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/fe034e93-6ea2-4acc-90be-c462d8ef7495" alt="Dragon Fly ‐ Animated" width="800" height="430">
+   <img src="https://github.com/user-attachments/assets/b65cd8c2-4230-4463-b21e-4b748e59098b" alt="Death Forest ‐ Animated" width="800" height="430">
 
    </details>  
 
@@ -175,7 +185,7 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 
   ![Sprint2_PB1](https://github.com/user-attachments/assets/600a3ed5-0dcf-4632-bfd5-93d7b555bf2d)
   ![Sprint2_PB2](https://github.com/user-attachments/assets/eb006852-a620-44cc-8f65-bcd3afa1e6cb)
-  ![Sprint2_PB3](https://github.com/user-attachments/assets/0f173c88-4165-4d48-92b7-989914190aa7)
+  ![Sprint2_PB3](https://github.com/user-attachments/assets/0f173c88-4165-4d48-92b7-989914190aa7)  
     
   </details>
   
