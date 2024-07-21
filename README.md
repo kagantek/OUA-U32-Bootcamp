@@ -83,15 +83,15 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
    + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
   
-   <details> <summary><h3>Sprint 1 - Game Screenshots</h3></summary>
+  <details> <summary><h3>Sprint 1 - Game Screenshots</h3></summary>
     
-   ![MainMenuScene](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e04563c0-95de-4181-baee-72fb4ea4ece4)
-   ![GameMapDesign](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e4c67b3e-056e-47b2-9861-bb653fc83850)
-   ![Game-SS-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/76a49cd0-3b8e-4079-99e4-88d9df8106c0)
-   ![Gif-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d3342e85-8e2c-423f-b28b-d7a4278b8b11)
-   ![Gif-2](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/08606429-3c93-4c1c-ab65-8ba7f85ca22b)
+  ![MainMenuScene](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e04563c0-95de-4181-baee-72fb4ea4ece4)
+  ![GameMapDesign](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/e4c67b3e-056e-47b2-9861-bb653fc83850)
+  ![Game-SS-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/76a49cd0-3b8e-4079-99e4-88d9df8106c0)
+  ![Gif-1](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/d3342e85-8e2c-423f-b28b-d7a4278b8b11)
+  ![Gif-2](https://github.com/kagantek/OUA-U32-Bootcamp/assets/152664604/08606429-3c93-4c1c-ab65-8ba7f85ca22b)
 
-   </details>
+  </details>
 
   <details> <summary><h3>Sprint 1 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary>
     
@@ -142,7 +142,7 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 <details>
   <summary><h1>Sprint 2</h1></summary>
     
-  ### Sprint Notes
+   ### Sprint Notes
   
    + <b>Expected points from user stories for this Sprint:</b> `200 points`.
    +  <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
@@ -153,17 +153,23 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Free 3D asset sources used to add to the scene: `Unity Asset Store`, `Mixamo` and `Sketchfab`
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
-  
-  <details> <summary><h3>Sprint 2 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary> 
-         
-  ![SS-1-SecondSprint](https://github.com/user-attachments/assets/8ee50471-dc5e-4045-b73c-5aa8718bd4a8)
-  ![SS-2-SecondSprint](https://github.com/user-attachments/assets/9e16f3e7-8f00-4b99-8349-81e3d6383b6b)
-  ![SS-3-SecondSprint](https://github.com/user-attachments/assets/78d70f09-eb69-4c42-a915-e6c2f3f2a957)    
-  ![SS-4-SecondSprint](https://github.com/user-attachments/assets/218cb2f0-54db-4f7b-a00d-b8d6a4af96a7)
-  ![SS-5-SecondSprint](https://github.com/user-attachments/assets/c493aefb-e244-4f3b-b551-0889e7d8eb50)
-  ![SS-6-SecondSprint](https://github.com/user-attachments/assets/ab3874c1-f3d0-4cd6-a225-34632d75d34b)
 
-  </details>
+   <details> <summary><h3>Sprint 2 - Game Screenshots</h3></summary>
+    
+ 
+
+   </details>  
+
+   <details> <summary><h3>Sprint 2 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary> 
+         
+   ![SS-1-SecondSprint](https://github.com/user-attachments/assets/8ee50471-dc5e-4045-b73c-5aa8718bd4a8)
+   ![SS-2-SecondSprint](https://github.com/user-attachments/assets/9e16f3e7-8f00-4b99-8349-81e3d6383b6b)
+   ![SS-3-SecondSprint](https://github.com/user-attachments/assets/78d70f09-eb69-4c42-a915-e6c2f3f2a957)    
+   ![SS-4-SecondSprint](https://github.com/user-attachments/assets/218cb2f0-54db-4f7b-a00d-b8d6a4af96a7)
+   ![SS-5-SecondSprint](https://github.com/user-attachments/assets/c493aefb-e244-4f3b-b551-0889e7d8eb50)
+   ![SS-6-SecondSprint](https://github.com/user-attachments/assets/ab3874c1-f3d0-4cd6-a225-34632d75d34b)
+
+   </details>
   
   <details> <summary><h3>Sprint 2 - Sprint Board Update Screenshots</h3></summary>
 
