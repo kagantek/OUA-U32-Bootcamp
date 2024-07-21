@@ -162,15 +162,19 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   + The game menu `button` and `panel elements` were designed and added to the game.
   + The `game logo`, `team logo` and `game desktop icons` are designed and animated in detail.
   + `Animations` and `codes` were created and added for our character's `aiming` and `arrow shooting mechanics`.
+  + It was tested for the first time whether the prepared part of the game could be `built in exe format`.
  
   ### Sprint Retrospective
 
-  + Although the use of the GitHub desktop application by the team caused difficulties at the beginning of the sprint, this problem was solved thanks to the training we provided within ourselves.
-  + Even though we, as a team, were undecided for a while about our main character's motivation to go on an adventure, we decided that this motivation would be revenge.
-  + Since the size of some of the models used reduces the performance of the game, it was decided to use smaller and optimized models.
-  + Although there was a disagreement about whether our character would be a melee or a ranged fighter, it was ultimately decided that she would be a ranged fighter archer.
-  + It has been decided to increase the number of tasks and scores of team members in the next sprint.
-  + As a result, although we encountered minor problems and disagreements, the sprint tasks we set were completed and the sprint process was close to what we expected.
+  + There was no availability in the first week of the sprint due to factors such as exams and national holidays, but this was compensated by working harder in the second week.
+  + There was a serious setback in the process because there was a corruption in the repo files in our GitHub desktop application, but the problem was solved by restoring everyone's repos to a clean clone version.
+  + During the build process of the current version of the game, some problems in the character codes were detected and these problems were resolved.
+  + It has been decided that AI improvements for enemy characters will be added in the next sprint.
+  + It was decided that NPC interaction mechanics would be developed and added in the next sprint.
+  + It was decided to design a final boss level for the next sprint.
+  + It is planned to add some cutscenes to the game in the next sprint to better reflect the game atmosphere.
+  + It was decided to meet much more frequently in the next sprint and complete the planned tasks.
+  + As a result, even though we encountered many more and challenging problems compared to the first sprint process, the sprint tasks we set were completed and the sprint process was close to what we expected.
 
 </details>
 
