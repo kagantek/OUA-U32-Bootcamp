@@ -1,6 +1,6 @@
 # Game Name
 
-`Grimwood`
+<b>Grimwood</b>
 
 # Game Logo
 
@@ -14,7 +14,7 @@
 
 # Team Name
 
-`Scholar's Haven Games` (Unity Group 32)
+<b>Scholar's Haven Games</b> (Unity Group 32)
 
 # Team Logo
 
@@ -133,13 +133,45 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   + It has been decided to increase the number of tasks and scores of team members in the next sprint.
   + As a result, although we encountered minor problems and disagreements, the sprint tasks we set were completed and the sprint process was close to what we expected.
   
-
 </details>
 
 ---
 
 <details>
   <summary><h1>Sprint 2</h1></summary>
+    
+  ### Sprint Notes
+  
+   + <b>Expected points from user stories for this Sprint:</b> `200 points`.
+   + <b>The process of Daily Scrum meetings:</b> Meetings continued to be held via `WhatsApp Messenger` and `DC`, but `Google Drive` was used to share some large-sized asset files.
+   + <b>The applications chosen for Desktop Icon & Team Logo design:</b> `Blender`.
+   + <b>The applications chosen for Logo animation design:</b> `Procreate` and `Blender`.
+   + <b>Point Completion Logic:</b> `(200 points completed)` The first sprint target was `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points`.
+   + <b>Free 3D asset sources used to add to the scene: `Unity Asset Store`, `Mixamo` and `Sketchfab`
+   + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
+   + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
+
+  ### Sprint Review
+  
+  + <b>Sprint Review Participants:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`, `İrem Eylül ÖZTEK`, `Kağan TEK`.  
+  + `Graveyard Territory`, `Ancient Dwarf Ruins Territory`, `Elementaria Territory` and `Death Forest Territory` have been designed to represent the second, third and fourth levels of our game.
+  + `Scripts` for `UI elements` in the main menu of our game were written and added.
+  + Mechanics including `animal animations` and `codes` have been created and added to the game environment.
+  + Mechanics including `jumping animation` and `codes` have been created and added for our character.
+  + Mechanics including `object collecting animation` and `codes` have been created and added for our character.
+  + The game menu `button` and `panel elements` were designed and added to the game.
+  + The `game logo`, `team logo` and `game desktop icons` are designed and animated in detail.
+  + `Animations` and `codes` were created and added for our character's `aiming` and `arrow shooting mechanics`.
+ 
+  ### Sprint Retrospective
+
+  + Although the use of the GitHub desktop application by the team caused difficulties at the beginning of the sprint, this problem was solved thanks to the training we provided within ourselves.
+  + Even though we, as a team, were undecided for a while about our main character's motivation to go on an adventure, we decided that this motivation would be revenge.
+  + Since the size of some of the models used reduces the performance of the game, it was decided to use smaller and optimized models.
+  + Although there was a disagreement about whether our character would be a melee or a ranged fighter, it was ultimately decided that she would be a ranged fighter archer.
+  + It has been decided to increase the number of tasks and scores of team members in the next sprint.
+  + As a result, although we encountered minor problems and disagreements, the sprint tasks we set were completed and the sprint process was close to what we expected.
+
 </details>
 
 ---
