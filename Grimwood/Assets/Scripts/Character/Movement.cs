@@ -20,6 +20,9 @@ public class Movement : MonoBehaviour
         public string isJumping = "isJumping";
         public string isFalling = "isFalling";
         public string isMoving = "isMoving";
+        public string aim = "aim";
+        public string pull = "pullString";
+        public string fire = "fire";
     }
 
     [SerializeField]
@@ -68,6 +71,21 @@ public class Movement : MonoBehaviour
     {
         isSprinting = sprint;
         anim.SetBool(animStrings.sprint, sprint);
+    }
+    
+    public void CharacterAim(bool aiming)
+    {
+        anim.SetBool(animStrings.aim, aiming);
+    }
+    
+    public void CharacterPullString(bool pull)
+    {
+        anim.SetBool(animStrings.pull, pull);
+    }
+    
+    public void CharacterFireArrow()
+    {
+        anim.SetTrigger(animStrings.fire);
     }
 
     public void JumpCharacter()

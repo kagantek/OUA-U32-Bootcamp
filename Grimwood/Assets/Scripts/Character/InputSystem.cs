@@ -14,6 +14,8 @@ public class InputSystem : MonoBehaviour
         public string strafeInput = "Horizontal";
         public string sprintInput = "Sprint";
         public string jumpInput = "Jump";
+        public string aim = "Fire2";
+        public string fire = "Fire1";
     }
 
     [SerializeField]
@@ -26,6 +28,8 @@ public class InputSystem : MonoBehaviour
 
     Transform camCenter;
 
+    bool isAiming;
+
     void Start()
     {
         moveScript = GetComponent<Movement>();
@@ -37,8 +41,16 @@ public class InputSystem : MonoBehaviour
         if (Input.GetAxis(input.forwardInput) != 0 || Input.GetAxis(input.strafeInput) != 0)
             RotateToCamView();
         
+        isAiming = Input.GetButton(input.aim);
+        
         moveScript.AnimateCharacter(Input.GetAxis(input.forwardInput), Input.GetAxis(input.strafeInput));
         moveScript.SprintCharacter(Input.GetButton(input.sprintInput));
+        moveScript.CharacterAim(isAiming);
+
+        if (isAiming)
+        {
+            moveScript.CharacterPullString(Input.GetButton(input.fire));
+        }
 
         if (Input.GetButtonDown(input.jumpInput))
         {
