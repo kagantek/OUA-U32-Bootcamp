@@ -7581,8 +7581,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1717406733745140, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1737349095}
   m_SourcePrefab: {fileID: 100100000, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
+--- !u!1 &198666480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1717406733745140, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
+  m_PrefabInstance: {fileID: 198666479}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &198796905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23309,6 +23317,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1951054404}
   m_SourcePrefab: {fileID: 100100000, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
+--- !u!4 &669924046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3480699329000672020, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
+  m_PrefabInstance: {fileID: 669924045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &671015262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53361,6 +53374,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4620178347958848, guid: d03c4353fda446d4f8df56d422578d64, type: 3}
   m_PrefabInstance: {fileID: 198666479}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1737349095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198666480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb9f5e8b2dc3754a855df8a55d5bc86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bowSettings:
+    arrowCount: 0
+    arrowPrefab: {fileID: 0}
+    arrowPos: {fileID: 0}
+    arrowEquipParent: {fileID: 0}
+    arrowForce: 3
+    EquipPos: {fileID: 0}
+    UnEquipPos: {fileID: 0}
+    UnEquipParent: {fileID: 0}
+    EquipParent: {fileID: 0}
+    bowString: {fileID: 0}
+    stringInitialPos: {fileID: 0}
+    stringHandPullPos: {fileID: 0}
+    stringInitialParent: {fileID: 0}
+  crossHairPrefab: {fileID: 1446032672669403702, guid: 8436001d78e0d5742a15210149736a9c, type: 3}
 --- !u!1001 &1737988122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62791,8 +62831,18 @@ MonoBehaviour:
     strafeInput: Horizontal
     sprintInput: Sprint
     jumpInput: Jump
+    aim: Fire2
+    fire: Fire1
   lookDistance: 5
   lookSpeed: 5
+  aimLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  spine: {fileID: 669924046}
+  spineOffset: {x: 0, y: 0, z: 0}
+  lookAtPoint: 2.8
+  bowScript: {fileID: 1737349095}
+  testAim: 0
 --- !u!114 &1951054400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62815,6 +62865,9 @@ MonoBehaviour:
     isJumping: isJumping
     isFalling: isFalling
     isMoving: isMoving
+    aim: aim
+    pull: pullString
+    fire: fire
   walkSpeed: 2
   sprintSpeed: 4
   jumpSpeed: 5
