@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Movement))]
@@ -25,15 +27,34 @@ public class InputSystem : MonoBehaviour
     [Header("Camera & Character Syncing")]
     public float lookDistance = 5;
     public float lookSpeed = 5;
+    
+    [Header("Aiming Settings")]
+    RaycastHit hit;
+    public LayerMask aimLayers;
+    Ray ray;
+
+    [Header("Spine Settings")]
+    public Transform spine;
+    public Vector3 spineOffset;
+
+    [Header("Head Rotation Settings")]
+    public float lookAtPoint = 2.8f;
+
 
     Transform camCenter;
+    Transform mainCam;
+
+    public Bow bowScript;
 
     bool isAiming;
+
+    public bool testAim;
 
     void Start()
     {
         moveScript = GetComponent<Movement>();
         camCenter = Camera.main.transform.parent;
+        mainCam = Camera.main.transform;
     }
 
     void Update()
@@ -42,6 +63,9 @@ public class InputSystem : MonoBehaviour
             RotateToCamView();
         
         isAiming = Input.GetButton(input.aim);
+
+        if (testAim)
+            isAiming = true;
         
         moveScript.AnimateCharacter(Input.GetAxis(input.forwardInput), Input.GetAxis(input.strafeInput));
         moveScript.SprintCharacter(Input.GetButton(input.sprintInput));
@@ -49,6 +73,7 @@ public class InputSystem : MonoBehaviour
 
         if (isAiming)
         {
+            Aim();
             moveScript.CharacterPullString(Input.GetButton(input.fire));
         }
 
@@ -56,6 +81,12 @@ public class InputSystem : MonoBehaviour
         {
             moveScript.JumpCharacter();
         }
+    }
+
+    void LateUpdate()
+    {
+        if(isAiming)
+            RotateCharacterSpine();
     }
 
     void RotateToCamView()
@@ -71,5 +102,28 @@ public class InputSystem : MonoBehaviour
 
         Quaternion finalRotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * lookSpeed);
         transform.rotation = finalRotation;
+    }
+    
+    void Aim()
+    {
+        Vector3 camPosition = mainCam.position;
+        Vector3 dir = mainCam.forward;
+
+        ray = new Ray(camPosition, dir);
+        if(Physics.Raycast(ray, out hit, 500f, aimLayers))
+        {
+            Debug.DrawLine(ray.origin, hit.point, Color.green);
+            bowScript.ShowCrosshair(hit.point);
+        }
+        else
+        {
+            bowScript.RemoveCrosshair();
+        }
+    }
+    
+    void RotateCharacterSpine()
+    {
+        spine.LookAt(ray.GetPoint(50));
+        spine.Rotate(spineOffset);
     }
 }
