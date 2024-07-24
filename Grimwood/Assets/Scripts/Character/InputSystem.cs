@@ -82,6 +82,8 @@ public class InputSystem : MonoBehaviour
         else
         {
             bowScript.RemoveCrosshair();
+            DisableArrow();
+            Release(); 
         }
 
         if (Input.GetButtonDown(input.jumpInput))
