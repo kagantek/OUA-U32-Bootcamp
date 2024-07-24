@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7b794b45-c3fe-4ac2-9feb-15ee7805e0ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grimwood/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grimwood/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing aim overdraw.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing aim overdraw.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing aim recoil.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing aim recoil.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing draw arrow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Characters/Player/standing draw arrow.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kagan/1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kagan/1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <updated>1721687905966</updated>
       <workItem from="1721687907883" duration="3286000" />
       <workItem from="1721758960062" duration="585000" />
-      <workItem from="1721825035917" duration="322000" />
+      <workItem from="1721825035917" duration="3179000" />
     </task>
     <servers />
   </component>

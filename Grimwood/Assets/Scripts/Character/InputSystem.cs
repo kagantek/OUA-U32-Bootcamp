@@ -75,6 +75,13 @@ public class InputSystem : MonoBehaviour
         {
             Aim();
             moveScript.CharacterPullString(Input.GetButton(input.fire));
+            if(Input.GetButtonUp(input.fire))
+                moveScript.CharacterFireArrow();
+        }
+
+        else
+        {
+            bowScript.RemoveCrosshair();
         }
 
         if (Input.GetButtonDown(input.jumpInput))
@@ -125,5 +132,25 @@ public class InputSystem : MonoBehaviour
     {
         spine.LookAt(ray.GetPoint(50));
         spine.Rotate(spineOffset);
+    }
+    
+    public void Pull()
+    {
+        bowScript.PullString();
+    }
+
+    public void EnableArrow()
+    {
+        bowScript.PickArrow();
+    }
+
+    public void DisableArrow()
+    {
+        bowScript.DisableArrow();
+    }
+
+    public void Release()
+    {
+        bowScript.ReleaseString();
     }
 }
