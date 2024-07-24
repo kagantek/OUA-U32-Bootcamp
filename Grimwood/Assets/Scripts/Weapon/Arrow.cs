@@ -14,7 +14,7 @@ public class Arrow : MonoBehaviour
         bx = GetComponent<BoxCollider>();
     }
 
-    void Update()
+    private void Update()
     {
             transform.rotation = Quaternion.LookRotation(rb.velocity);
     }

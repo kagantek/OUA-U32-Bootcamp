@@ -77,15 +77,17 @@ public class InputSystem : MonoBehaviour
         {
             Aim();
             moveScript.CharacterPullString(Input.GetButton(input.fire));
-            if(Input.GetButtonUp(input.fire))
+            if (Input.GetButtonUp(input.fire))
+            {
                 moveScript.CharacterFireArrow();
-            if (hitDetected)
-            {
-                bowScript.Fire(hit.point);
-            }
-            else
-            {
-                bowScript.Fire(ray.GetPoint(300f));
+                if (hitDetected)
+                {
+                    bowScript.Fire(hit.point);
+                }
+                else
+                {
+                    bowScript.Fire(ray.GetPoint(300f));
+                }
             }
         }
 

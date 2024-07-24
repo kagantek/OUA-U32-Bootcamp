@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b794b45-c3fe-4ac2-9feb-15ee7805e0ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grimwood/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grimwood/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kerem/Level-1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kerem/Level-1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kagan/1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kagan/1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/Bow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/Arrow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <updated>1721687905966</updated>
       <workItem from="1721687907883" duration="3286000" />
       <workItem from="1721758960062" duration="585000" />
-      <workItem from="1721825035917" duration="6636000" />
+      <workItem from="1721825035917" duration="8855000" />
     </task>
     <servers />
   </component>
