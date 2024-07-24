@@ -23255,23 +23255,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.59084606
+      value: -0.591394
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0193372
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.80613375
+      value: -0.8063828
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.025988722
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.092
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -23279,7 +23279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 3.549
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 62e0a6f9d5d24594eac9a690743cc747, type: 3}
       propertyPath: m_Name
@@ -62839,7 +62839,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   spine: {fileID: 669924046}
-  spineOffset: {x: 0, y: 0, z: 0}
+  spineOffset: {x: 12.9, y: 101.7, z: 7.9}
   lookAtPoint: 2.8
   bowScript: {fileID: 1737349095}
   testAim: 0
