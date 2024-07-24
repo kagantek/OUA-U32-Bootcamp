@@ -105,14 +105,12 @@ public class Bow : MonoBehaviour
 
     public void Fire(Vector3 hitPoint)
     {
-        if (bowSettings.arrowCount < 1)
-            return;
-
         Vector3 dir = hitPoint - bowSettings.arrowPos.position;
-        currentArrow = Instantiate(bowSettings.arrowPrefab, bowSettings.arrowPos.position, bowSettings.arrowPos.rotation) as Rigidbody;
-
-        currentArrow.AddForce(dir * bowSettings.arrowForce, ForceMode.Force);
-
-        bowSettings.arrowCount -= 1;
+        
+        currentArrow =
+            Instantiate(bowSettings.arrowPrefab, bowSettings.arrowPos.position,
+                bowSettings.arrowPos.rotation) as Rigidbody;
+        
+        currentArrow.AddForce(hitPoint * bowSettings.arrowForce, ForceMode.VelocityChange);
     }
 }

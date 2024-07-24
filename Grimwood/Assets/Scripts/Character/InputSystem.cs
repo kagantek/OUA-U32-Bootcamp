@@ -50,6 +50,8 @@ public class InputSystem : MonoBehaviour
 
     public bool testAim;
 
+    bool hitDetected;
+
     void Start()
     {
         moveScript = GetComponent<Movement>();
@@ -77,6 +79,14 @@ public class InputSystem : MonoBehaviour
             moveScript.CharacterPullString(Input.GetButton(input.fire));
             if(Input.GetButtonUp(input.fire))
                 moveScript.CharacterFireArrow();
+            if (hitDetected)
+            {
+                bowScript.Fire(hit.point);
+            }
+            else
+            {
+                bowScript.Fire(ray.GetPoint(300f));
+            }
         }
 
         else
@@ -121,11 +131,13 @@ public class InputSystem : MonoBehaviour
         ray = new Ray(camPosition, dir);
         if(Physics.Raycast(ray, out hit, 500f, aimLayers))
         {
+            hitDetected = true;
             Debug.DrawLine(ray.origin, hit.point, Color.green);
             bowScript.ShowCrosshair(hit.point);
         }
         else
         {
+            hitDetected = false;
             bowScript.RemoveCrosshair();
         }
     }
