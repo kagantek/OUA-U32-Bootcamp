@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - Collectible
+  - Obelisk
   layers:
   - Default
   - TransparentFX

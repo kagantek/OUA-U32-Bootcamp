@@ -13,17 +13,30 @@ public class RadialMenuController : MonoBehaviour
     public GameObject targetObject;
     public Transform[] positionSources;
 
+
+    public bool canOpenMenu = false;    
+    public TextMeshProUGUI countdownText; 
+    public float cooldownTime = 10.0f; 
+    private bool isCoolingDown = false; 
+    
+    void Start()
+    {        
+        theMenu.SetActive(false);
+        countdownText.text = ""; 
+    }
+
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E) && canOpenMenu && !isCoolingDown)
+        {
+            theMenu.SetActive(!theMenu.activeSelf);            
+        }
+
         if (theMenu.activeInHierarchy)
         {
-            
             moveInput.x = Input.mousePosition.x - (Screen.width / 2f);
             moveInput.y = Input.mousePosition.y - (Screen.height / 2f);
             moveInput.Normalize();
-
-            
-            selectedOption = -1;
 
             if (moveInput != Vector2.zero)
             {
@@ -42,7 +55,7 @@ public class RadialMenuController : MonoBehaviour
                         options[i].color = highlightedColor;
                         selectedOption = i;
 
-                        highlightBlock.transform.rotation = Quaternion.Euler(0, 0, i * (-360 / options.Length));
+                        highlightBlock.transform.rotation = Quaternion.Euler(0, 0, i * -72);
                     }
                     else
                     {
@@ -53,10 +66,27 @@ public class RadialMenuController : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                if (selectedOption >= 0)
+                switch (selectedOption)
                 {
-                    TeleportToPosition(selectedOption);
-                    selectedOption = -1;
+                    case 0:
+                        TeleportToPosition(0);
+                        break;
+
+                    case 1:
+                        TeleportToPosition(1);
+                        break;
+
+                    case 2:
+                        TeleportToPosition(2);
+                        break;
+
+                    case 3:
+                        TeleportToPosition(3);
+                        break;
+
+                    case 4:
+                        TeleportToPosition(4);
+                        break;
                 }
             }
         }
@@ -66,8 +96,49 @@ public class RadialMenuController : MonoBehaviour
     {
         if (targetObject != null && index >= 0 && index < positionSources.Length)
         {
+            if (theMenu.activeSelf)
+            {
+                StartCoroutine(StartCooldown()); 
+            }
             targetObject.transform.position = positionSources[index].position;
-            theMenu.SetActive(false);
+            theMenu.SetActive(!theMenu.activeSelf);
         }
     }
+
+    public void SetCanOpenMenu(bool value)
+    {
+        canOpenMenu = value;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Obelisk"))
+        {
+            canOpenMenu = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Obelisk"))
+        {
+            canOpenMenu = false;
+        }
+    }
+
+    private IEnumerator StartCooldown()
+    {
+        isCoolingDown = true;
+        float remainingTime = cooldownTime;
+
+        while (remainingTime > 0)
+        {
+            countdownText.text = Mathf.Ceil(remainingTime).ToString();
+            yield return null; // Wait for the next frame
+            remainingTime -= Time.deltaTime; // Decrease time based on the time passed since last frame
+        }
+
+        countdownText.text = "";
+        isCoolingDown = false;
+    }    
 }
