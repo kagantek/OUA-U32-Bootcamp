@@ -6,33 +6,22 @@ public class BattleZone : MonoBehaviour
 {
     public MusicManager musicManager;
     public EnemyManager enemyManager;
-    private bool isPlayerInZone = false;
+
+    public GameObject battleZone;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if(other.gameObject.tag == "Player")
         {
-            isPlayerInZone = true;
-            musicManager.StartBattleMusic();
-            enemyManager.OnBattleZoneEntered();
+            FindObjectOfType<MusicManager>().StartBattleMusic();
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
-            isPlayerInZone = false;
-            musicManager.StopBattleMusic();
-           
-        }
-    }
-
-    public void CheckAndStopBattleMusic()
-    {
-        if (!isPlayerInZone || enemyManager.AllEnemiesDead())
-        {
-            musicManager.StopBattleMusic();
+            FindObjectOfType<MusicManager>().StopBattleMusic();
         }
     }
 }

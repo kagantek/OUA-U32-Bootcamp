@@ -4,70 +4,106 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public AudioSource backgroundMusicSource;
-    public AudioSource battleMusicSource;
-    public AudioClip backgroundMusic;
-    public AudioClip battleMusic;
+    public AudioSource backgroundMusic;
+    public AudioSource battleMusic;
+
     public float fadeDuration = 1.0f;
+
+    private bool isFadingIn = false;
+    private bool isFadingOut = false;
+    private AudioSource fadingInSource = null;
+    private AudioSource fadingOutSource = null;
+    private float fadeSpeed;
+    private float currentFadeTime = 0f;
 
     private void Start()
     {
-        backgroundMusicSource.clip = backgroundMusic;
-        battleMusicSource.clip = battleMusic;
-        backgroundMusicSource.loop = true;
-        battleMusicSource.loop = true;
-        backgroundMusicSource.volume = 0;
-        battleMusicSource.volume = 0;
-        backgroundMusicSource.Play();
-        StartCoroutine(FadeIn(backgroundMusicSource, fadeDuration));
+        // Baþlangýçta backgroundMusic'in sesi kapalý
+        backgroundMusic.volume = 0;
+        backgroundMusic.Play();
+        StartFadeIn(backgroundMusic);
+    }
+
+    private void Update()
+    {
+        if (isFadingIn)
+        {
+            FadeIn();
+        }
+        if (isFadingOut)
+        {
+            FadeOut();
+        }
     }
 
     public void StartBattleMusic()
     {
-        StartCoroutine(SwitchMusic(backgroundMusicSource, battleMusicSource, fadeDuration));
+        if (!isFadingOut)
+        {
+            StartFadeOut(backgroundMusic);
+        }
+
+        if (!isFadingIn && !battleMusic.isPlaying)
+        {
+            StartFadeIn(battleMusic);
+        }
     }
 
     public void StopBattleMusic()
     {
-        StartCoroutine(SwitchMusic(battleMusicSource, backgroundMusicSource, fadeDuration));
-    }
-
-    private IEnumerator FadeIn(AudioSource audioSource, float duration)
-    {
-        float startVolume = 0;
-        float targetVolume = 1.0f;
-        float currentTime = 0;
-
-        audioSource.volume = startVolume;
-        while (currentTime < duration)
+        if (!isFadingOut)
         {
-            currentTime += Time.deltaTime;
-            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, currentTime / duration);
-            yield return null;
+            StartFadeOut(battleMusic);
         }
-        audioSource.volume = targetVolume;
-    }
 
-    private IEnumerator FadeOut(AudioSource audioSource, float duration)
-    {
-        float startVolume = audioSource.volume;
-        float targetVolume = 0;
-        float currentTime = 0;
-
-        while (currentTime < duration)
+        if (!isFadingIn && !backgroundMusic.isPlaying)
         {
-            currentTime += Time.deltaTime;
-            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, currentTime / duration);
-            yield return null;
+            StartFadeIn(backgroundMusic);
         }
-        audioSource.volume = targetVolume;
-        audioSource.Stop();
     }
 
-    private IEnumerator SwitchMusic(AudioSource from, AudioSource to, float duration)
+    private void StartFadeIn(AudioSource audioSource)
     {
-        yield return StartCoroutine(FadeOut(from, duration));
-        to.Play();
-        yield return StartCoroutine(FadeIn(to, duration));
+        fadingInSource = audioSource;
+        fadingInSource.volume = 0;
+        fadeSpeed = 1f / fadeDuration;
+        isFadingIn = true;
+        fadingInSource.Play();
+    }
+
+    private void StartFadeOut(AudioSource audioSource)
+    {
+        fadingOutSource = audioSource;
+        fadeSpeed = 1f / fadeDuration;
+        isFadingOut = true;
+    }
+
+    private void FadeIn()
+    {
+        if (fadingInSource != null)
+        {
+            fadingInSource.volume += fadeSpeed * Time.deltaTime;
+            if (fadingInSource.volume >= 1.0f)
+            {
+                fadingInSource.volume = 1.0f;
+                isFadingIn = false;
+                fadingInSource = null;
+            }
+        }
+    }
+
+    private void FadeOut()
+    {
+        if (fadingOutSource != null)
+        {
+            fadingOutSource.volume -= fadeSpeed * Time.deltaTime;
+            if (fadingOutSource.volume <= 0.0f)
+            {
+                fadingOutSource.volume = 0.0f;
+                isFadingOut = false;
+                fadingOutSource.Stop();
+                fadingOutSource = null;
+            }
+        }
     }
 }

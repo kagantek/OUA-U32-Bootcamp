@@ -20,7 +20,7 @@ public class EnemyManager : MonoBehaviour
 
             if (AllEnemiesDead())
             {
-                battleZone.CheckAndStopBattleMusic();
+                battleZone.musicManager.StopBattleMusic();
                 break;
             }
         }
