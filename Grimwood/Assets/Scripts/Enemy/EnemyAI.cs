@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     float attackCooldown = 2;
     [SerializeField] float stoppingDistance;
     [SerializeField] float detectionRadius = 10f; // Görüþ mesafesi
+    [SerializeField] float attackDistance = 2f;   // Saldýrý mesafesi
     [SerializeField] float returnToStartDelay = 3f; // Baþlangýç noktasýna dönme gecikmesi
 
     NavMeshAgent agent;
@@ -27,10 +28,14 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         float dist = Vector3.Distance(transform.position, target.transform.position);
-        if (dist < stoppingDistance)
+        if (dist < attackDistance)
         {
             StopEnemy();
             Attack();
+        }
+        else if (dist < stoppingDistance) // Durdurma mesafesinde ise dur
+        {
+            StopEnemy();
         }
         else if (dist <= detectionRadius) // Görüþ mesafesinde ise hedefe git
         {

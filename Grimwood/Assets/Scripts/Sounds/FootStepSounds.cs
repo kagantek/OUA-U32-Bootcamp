@@ -6,21 +6,26 @@ public class FootStepSounds : MonoBehaviour
 {
     public AudioSource playerFootAudio;
     public AudioClip footClip;
-    bool playing;
-
-    // Start is called before the first frame update
+    private bool playing;
     void Start()
     {
-        
+        playerFootAudio.spatialBlend = 0;
+        playerFootAudio.volume = 1.0f;
     }
 
     public void PlayFootSound()
     {
         if (!playing)
         {
-            playing = true;
-            playerFootAudio.PlayOneShot(footClip);
-            playing = false;
+            StartCoroutine(PlayFootstepSoundCoroutine());
         }
+    }
+
+    private IEnumerator PlayFootstepSoundCoroutine()
+    {
+        playing = true;
+        playerFootAudio.PlayOneShot(footClip);
+        yield return new WaitForSeconds(footClip.length);
+        playing = false;
     }
 }
