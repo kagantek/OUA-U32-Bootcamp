@@ -13,16 +13,19 @@ public class RadialMenuController : MonoBehaviour
     public GameObject targetObject;
     public Transform[] positionSources;
 
+    public Animator animator;
+    private bool isPlaying = false;
+
 
     public bool canOpenMenu = false;    
     public TextMeshProUGUI countdownText; 
-    public float cooldownTime = 10.0f; 
+    public float cooldownTime = 30.0f; 
     private bool isCoolingDown = false; 
     
     void Start()
     {        
         theMenu.SetActive(false);
-        countdownText.text = ""; 
+        countdownText.text = "0"; 
     }
 
     void Update()
@@ -130,15 +133,19 @@ public class RadialMenuController : MonoBehaviour
     {
         isCoolingDown = true;
         float remainingTime = cooldownTime;
+        isPlaying = true;        
 
         while (remainingTime > 0)
         {
             countdownText.text = Mathf.Ceil(remainingTime).ToString();
             yield return null; // Wait for the next frame
             remainingTime -= Time.deltaTime; // Decrease time based on the time passed since last frame
+            animator.SetBool("isPlaying", isPlaying);
         }
 
-        countdownText.text = "";
+        countdownText.text = "0";
         isCoolingDown = false;
+        isPlaying = false;
+        animator.SetBool("isPlaying", isPlaying);
     }    
 }
