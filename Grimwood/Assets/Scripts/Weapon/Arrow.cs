@@ -8,11 +8,14 @@ public class Arrow : MonoBehaviour
     Rigidbody rb;
     BoxCollider bx;
     bool disableRotation;
+    public float destroyTime = 10f;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         bx = GetComponent<BoxCollider>();
+        
+        Destroy(this.gameObject, destroyTime);
     }
 
     private void Update()

@@ -8,18 +8,10 @@ public class Bow : MonoBehaviour
     public class BowSettings
     {
         [Header("Arrow Settings")]
-        public float arrowCount;
         public Rigidbody arrowPrefab;
         public Transform arrowPos;
         public Transform arrowEquipParent;
         public float arrowForce = 3;
-
-        [Header("Bow Equip & UnEquip Settings")]
-        public Transform EquipPos;
-        public Transform UnEquipPos;
-
-        public Transform UnEquipParent;
-        public Transform EquipParent;
 
         [Header("Bow String Settings")]
         public Transform bowString;
@@ -73,20 +65,6 @@ public class Bow : MonoBehaviour
         bowSettings.bowString.transform.parent = bowSettings.stringInitialParent;
     }
 
-    public void EquipBow()
-    {
-        this.transform.position = bowSettings.EquipPos.position;
-        this.transform.rotation = bowSettings.EquipPos.rotation;
-        this.transform.parent = bowSettings.EquipParent;
-    }
-
-    public void UnEquipBow()
-    {
-        this.transform.position = bowSettings.UnEquipPos.position;
-        this.transform.rotation = bowSettings.UnEquipPos.rotation;
-        this.transform.parent = bowSettings.UnEquipParent;
-    }
-
     public void ShowCrosshair(Vector3 crosshairPos)
     {
         if (!currentCrossHair)
@@ -111,6 +89,6 @@ public class Bow : MonoBehaviour
             Instantiate(bowSettings.arrowPrefab, bowSettings.arrowPos.position,
                 bowSettings.arrowPos.rotation) as Rigidbody;
         
-        currentArrow.AddForce(dir * bowSettings.arrowForce, ForceMode.VelocityChange);
+        currentArrow.AddForce(dir * bowSettings.arrowForce, ForceMode.Force);
     }
 }

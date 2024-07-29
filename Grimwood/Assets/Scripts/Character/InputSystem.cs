@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Movement))]
+[RequireComponent(typeof(Animator))]
 public class InputSystem : MonoBehaviour
 {
     Movement moveScript;
@@ -52,11 +53,14 @@ public class InputSystem : MonoBehaviour
 
     bool hitDetected;
 
+    Animator playerAnim;
+
     void Start()
     {
         moveScript = GetComponent<Movement>();
         camCenter = Camera.main.transform.parent;
         mainCam = Camera.main.transform;
+        playerAnim = GetComponent<Animator>();
     }
 
     void Update()
@@ -146,6 +150,7 @@ public class InputSystem : MonoBehaviour
     
     void RotateCharacterSpine()
     {
+        RotateToCamView();
         spine.LookAt(ray.GetPoint(50));
         spine.Rotate(spineOffset);
     }
@@ -168,5 +173,19 @@ public class InputSystem : MonoBehaviour
     public void Release()
     {
         bowScript.ReleaseString();
+    }
+    
+    
+    private void OnAnimatorIK(int layerIndex)
+    {
+        if (isAiming)
+        {
+            playerAnim.SetLookAtWeight(1f);
+            playerAnim.SetLookAtPosition(ray.GetPoint(lookAtPoint));
+        }
+        else
+        {
+            playerAnim.SetLookAtWeight(0);
+        }
     }
 }
