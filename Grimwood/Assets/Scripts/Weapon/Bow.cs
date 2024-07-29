@@ -111,6 +111,6 @@ public class Bow : MonoBehaviour
             Instantiate(bowSettings.arrowPrefab, bowSettings.arrowPos.position,
                 bowSettings.arrowPos.rotation) as Rigidbody;
         
-        currentArrow.AddForce(hitPoint * bowSettings.arrowForce, ForceMode.VelocityChange);
+        currentArrow.AddForce(dir * bowSettings.arrowForce, ForceMode.VelocityChange);
     }
 }
