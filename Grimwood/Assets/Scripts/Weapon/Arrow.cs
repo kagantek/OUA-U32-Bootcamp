@@ -9,6 +9,7 @@ public class Arrow : MonoBehaviour
     BoxCollider bx;
     bool disableRotation;
     public float destroyTime = 10f;
+    public int damageAmount = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,4 +34,20 @@ public class Arrow : MonoBehaviour
             bx.isTrigger = true;
         } 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+        if (other.tag == "Skeleton")
+        {
+            //Destroy(transform.GetComponent<Rigidbody>());
+            other.GetComponent<SkeletonDamage>().TakeDamage(damageAmount);
+        }
+        else if (other.tag == "Demon")
+        {
+            //Destroy(transform.GetComponent<Rigidbody>());
+            other.GetComponent<DemonDamage>().TakeDamage(damageAmount);
+        }
+    }
+
 }

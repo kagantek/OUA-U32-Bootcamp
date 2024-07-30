@@ -9,6 +9,8 @@ TagManager:
   - Obelisk
   - Spike
   - EnemyAI
+  - Skeleton
+  - Demon
   layers:
   - Default
   - TransparentFX
