@@ -7,6 +7,8 @@ TagManager:
   - ground
   - Collectible
   - Obelisk
+  - Spike
+  - EnemyAI
   layers:
   - Default
   - TransparentFX

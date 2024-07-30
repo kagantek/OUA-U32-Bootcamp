@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GamePause : MonoBehaviour
 {
-     public GameObject objectToHide;
-     private bool isVisible = false;
+    public GameObject objectToHide;
+    private bool isVisible = false;
 
-      private bool isPaused = false;
+    private bool isPaused = false;
+
+    [SerializeField] private AllMusicController _allMusicController;
 
     void Update()
     {        
@@ -30,12 +32,14 @@ public class GamePause : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = 0f;
+        _allMusicController.PauseAllMusic();
         isPaused = true;
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1f;
+        _allMusicController.ResumeAllMusic();
         isPaused = false;
     }
 
