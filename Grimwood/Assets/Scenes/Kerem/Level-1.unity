@@ -8229,7 +8229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &149147034
 MonoBehaviour:
@@ -48513,7 +48513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1057493275
 MonoBehaviour:
@@ -54575,7 +54575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1171071907
 MonoBehaviour:
@@ -57278,7 +57278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1221036357
 MonoBehaviour:
@@ -64134,7 +64134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1406144993
 MonoBehaviour:
@@ -72473,7 +72473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1591628530
 MonoBehaviour:
@@ -81905,7 +81905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1811569576
 MonoBehaviour:
@@ -83254,7 +83254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &1836062387
 MonoBehaviour:
@@ -83289,9 +83289,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.16253941
-  m_Height: 0.3464897
+  m_Height: 0.32507885
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0.051704954}
+  m_Center: {x: -0.000000002352523, y: 0.01070621, z: 0.051704954}
 --- !u!1001 &1838718637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96930,7 +96930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &2075624023
 MonoBehaviour:
@@ -99569,7 +99569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistance: 3
   detectionRadius: 15
-  attackDistance: 2
+  attackDistance: 2.75
   returnToStartDelay: 3
 --- !u!114 &2125358386
 MonoBehaviour:
