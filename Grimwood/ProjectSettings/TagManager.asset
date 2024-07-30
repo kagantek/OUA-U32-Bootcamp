@@ -8,7 +8,6 @@ TagManager:
   - Collectible
   - Obelisk
   - Spike
-  - EnemyAI
   - Skeleton
   - Demon
   layers:

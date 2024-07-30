@@ -9,7 +9,7 @@ public class DecreaseHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {        
-        if (other.CompareTag("Spike") || other.CompareTag("EnemyAI"))
+        if (other.CompareTag("Spike") || other.CompareTag("Skeleton") || other.CompareTag("Demon"))
         {            
             if (damageCoroutine == null)
             {
@@ -20,7 +20,7 @@ public class DecreaseHealth : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Spike") || other.CompareTag("EnemyAI"))
+        if (other.CompareTag("Spike") || other.CompareTag("Skeleton") || other.CompareTag("Demon"))
         {
             if (damageCoroutine != null)
             {
