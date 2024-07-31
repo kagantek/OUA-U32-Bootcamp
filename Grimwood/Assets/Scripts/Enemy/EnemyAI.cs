@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     float lastAttackTime = 0;
-    float attackCooldown = 2;
+    [SerializeField] float attackCooldown = 0f;
     [SerializeField] float stoppingDistance;
     [SerializeField] float detectionRadius = 10f; // Görüþ mesafesi
     [SerializeField] float attackDistance = 2f;   // Saldýrý mesafesi
@@ -80,6 +80,7 @@ public class EnemyAI : MonoBehaviour
         agent.isStopped = true;
         anim.SetBool("isWalking", false);
         anim.SetBool("Attack", false);
+        
     }
 
     private void Attack()
@@ -88,7 +89,15 @@ public class EnemyAI : MonoBehaviour
         {
             lastAttackTime = Time.time;
             anim.SetBool("Attack", true);
+
+
         }
+
     }
+    public void OnAttackAnimationComplete()
+    {
+        anim.SetBool("Attack", false); // Saldýrý animasyonunu sýfýrla
+    }
+
 }
 
