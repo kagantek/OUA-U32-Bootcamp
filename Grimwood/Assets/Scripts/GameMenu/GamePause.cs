@@ -6,14 +6,20 @@ using UnityEngine.SceneManagement;
 public class GamePause : MonoBehaviour
 {
     public GameObject objectToHide;
+    public GameObject controlGameObject; // Bu, ESC'ye basmayı engellemek istediğiniz gameObject
     private bool isVisible = false;
-
     private bool isPaused = false;
 
     [SerializeField] private AllMusicController _allMusicController;
 
     void Update()
     {        
+        // Eğer controlGameObject aktifse, ESC'ye basmayı engelle
+        if (controlGameObject.activeSelf) 
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {            
             ShowPauseMenu();
@@ -45,11 +51,11 @@ public class GamePause : MonoBehaviour
 
     public void ShowPauseMenu()
     {
-            isVisible = !isVisible;
-            objectToHide.SetActive(isVisible);
+        isVisible = !isVisible;
+        objectToHide.SetActive(isVisible);
     }
 
-    public void BeackToMenu()
+    public void BackToMenu()
     {
         ResumeGame();
         SceneManager.LoadScene("MainMenu");

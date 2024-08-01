@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GolemMovement : MonoBehaviour
-{public Transform pointA;
+{
+    public Transform pointA;
     public Transform pointB;
     public float speed = 2f;
     private bool movingToB = true;
