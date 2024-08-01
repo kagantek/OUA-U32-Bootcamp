@@ -35,17 +35,18 @@
 
 # Game Description
 
-Grimwood is a 3D, single-player, fantasy adventure game with third-person player controls. The player, with our character named Erika, will fulfill the tasks given to him by NPCs in 5 different regions on the map we designed. These regions also represent the levels of our game. As you complete the missions, these regions will become active on the map. Finally, when all the missions are completed, a new boss area will be active. Our player will fight the main boss and complete the scenario.
+Grimwood is a 3D, single-player, fantasy, adventure, role-playing game with third-person player controls. With our main character named Erika, the player will be able to interact with NPCs in five different regions on the map we designed, have dialogues with them and fulfill the tasks given to them. The player who spends time in these different regions will also be more immersed in the story of the Grimwood World with each new task she does. The five different regions represent the levels of our open-world game and each region has more challenging tasks.
 
 # Game Story
 
-*"Grimwood Forest was a place where legends and dark forces ruled. A curse plunged the forest into darkness, unleashing evil spirits. The hope of the village was the young adventurer Erika. When Erika was a child, she swore revenge on the cursed monsters that murdered her family. She sets out to find the origin of the curse and save the forest. Along the way, he explored ancient cemeteries, fought dark creatures, and tried to unravel the mysteries of the forest. At every step, she encountered the inhabitants of the forest and the village and tried to solve their problems. Finally, Erika found the source of the curse: It was a curse inflicted on the forest by an evil monster. By completing challenging missions, he activated the portal deep in the forest, found the location of the monster, defeated it and broke the curse of the forest, bringing peace back to the land."*
+*"The Grimwood Realm was a place of legends and peaceful creatures. Erika and her family lived peacefully in their own little cabin. One day, a curse plunged the forest into darkness and unleashed evil spirits. Erika's family was attacked by these creatures. Erika swore revenge on the cursed monsters that killed her family when she was a child. She set out to find the origin of the curse and save the realm. Along the way, she explored difficult areas one by one. She traveled the entire realm, from Elementaria, where the dragon's magic caused magical crystals to exist, to the Ancient Dwarven Ruins. She fought dark creatures in cursed graveyards and tried to unravel the mysteries of the forest. She encountered the inhabitants of the forest and the village at every step. Her legend continued to be told by the bards of the realms..."*
 
 # Game Features
 
 + 3D game
 + Third person controller
 + Story based
++ Rogue Like
 + Single player
 + Adventure genre
 + Role playing game
