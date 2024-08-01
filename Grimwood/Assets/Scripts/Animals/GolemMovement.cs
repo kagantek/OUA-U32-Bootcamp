@@ -19,12 +19,6 @@ public class GolemMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isInRange) // E tuşuna basıldığında ve karakter collider içinde ise
-        {
-            isIdle = !isIdle; // Idle durumunu değiştiriyoruz
-            animator.SetBool("IsIdle", isIdle); // Animator'daki "IsIdle" parametresini güncelliyoruz
-        }
-
         if (!isIdle)
         {
             if (movingToB)
@@ -55,6 +49,8 @@ public class GolemMovement : MonoBehaviour
         if (other.CompareTag("Player")) // Eğer collider içindeki obje "Player" tag'ine sahipse
         {
             isInRange = true; // Karakterin collider içinde olduğunu işaretle
+            isIdle = true; // Idle durumuna geç
+            animator.SetBool("IsIdle", isIdle); // Animator'daki "IsIdle" parametresini güncelle
         }
     }
 
@@ -63,8 +59,8 @@ public class GolemMovement : MonoBehaviour
         if (other.CompareTag("Player")) // Eğer collider içindeki obje "Player" tag'ine sahipse
         {
             isInRange = false; // Karakterin collider dışına çıktığını işaretle
-            isIdle = !isIdle; // Idle durumunu değiştiriyoruz
-            animator.SetBool("IsIdle", isIdle);
+            isIdle = false; // Yürüme durumuna geç
+            animator.SetBool("IsIdle", isIdle); // Animator'daki "IsIdle" parametresini güncelle
         }
     }
 }
