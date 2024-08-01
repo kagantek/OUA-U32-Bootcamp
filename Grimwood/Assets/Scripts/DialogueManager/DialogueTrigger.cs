@@ -5,6 +5,8 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public string dialogueLine = "Hello, traveler!";
+
+    public string npcName = "Example";
     private bool isPlayerInRange = false;
     public DialogueManager dialogueManager; // Reference to the DialogueManager
 
@@ -21,6 +23,7 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
+            dialogueManager.CloseText();
         }
     }
 
@@ -34,7 +37,6 @@ public class DialogueTrigger : MonoBehaviour
 
     void DisplayDialogue()
     {
-        dialogueManager.DisplayText(dialogueLine);
-        Debug.Log("Merhaba Yolcu");
+        dialogueManager.DisplayText(dialogueLine, npcName);         
     }
 }
