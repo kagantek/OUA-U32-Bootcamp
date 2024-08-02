@@ -235,12 +235,44 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
    + <b>The process of Daily Scrum meetings:</b> Meetings continued to be held via `WhatsApp Messenger` and `DC`, but `Google Drive` was used to share some large-sized asset files.
    + <b>Change in development process:</b> `A simultaneous` development process was abandoned and project development continued `sequentially` at certain periods during the day in order to avoid problems in GitHub.
+   + <b>The platform chosen to release our game build:</b> `itch.io`
    + <b>The applications chosen for Game Trailer Video:</b> `DaVinci Resolve`.
    + <b>The applications chosen for Fantasy Map design:</b> `Krita`.   
    + Free generative AI tools used for `concept` and `in game` designs.
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
 
+  ### Sprint Review
+  
+   + <b>Sprint Review Participants:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`, `İrem Eylül ÖZTEK`, `Kağan TEK`.  
+   + `NPC interaction`, `dialogues` and `quest systems` are added to the game.
+   + Enhanced `teleportation mechanics` with `radial dynamic UI` added to the game.
+   + `Game Over screen` and `In game pause menu` are designed and added to the game.
+   + `Dynamic Skybox` and `Day & Night Cycle` mechanics added to the game.
+   + `Character health mechanics` and `related UI designs` are added to the game.
+   + `A mini parkour mechanics` that is activated by `a secret button` has been added to the game.
+   + A beautiful `cinematic` beginning has been added, telling the game story with `AI-powered visuals`.
+   + `A fantasy map` that is exactly compatible with our game map has been designed and added to the game.
+   + An improved `mini map` that shows our character, NPCs and enemy AI with `special icons` and a `large map` that shows our `character's coordinates` have been added to the game.
+   + `Game music & sound effects` and their `scripts` are added to the game. (Musics are different in battle zone and other parts of the map.)
+   + `NavMesh agent AI` added to `two different` enemy mobs.
+   + `Mob fight` and `interaction mechanics` added to the game.
+   + `Game trailer video` is edited and uploaded to YouTube platform.
+
+  ### Sprint Retrospective
+
+   + `Team spirit was maintained`, possible discussions were prevented, and team members congratulated each other for working devotedly throughout the Scrum process.
+   + The project development process, which was interrupted due to internships and exams, was resolved by adopting a sequential development order.
+   + Although the game was output in WebGL format without any problems, the platforms did not allow it due to size. Due to the large size of our game, a build that can be downloaded and played was preferred rather than a structure that can be played online.    
+   + It was decided to cancel bend mechanics of character to focus on other features.
+   + It was decided to cancel melee attack mechanics for our character to improve aim mechanics.
+   + It was decided to cancel object moving mechanics of objects to focus on more scene details.
+   + It was decided to cancel a final boss level and boss fight mechanics to improve other five territories.
+   + As a result, although we canceled some tasks, it was a much more intense and challenging process than the first two sprints. However, since everyone in the team got used to each other's working order, the project was developed much more efficiently.
+   + `The demo day presentation` was discussed and a preparation plan was created.
+   + Preliminary discussions were held about `the future planning` of the project and it was decided to develop our game.
+   + As a team, we had `a small celebration` with the justified pride of having produced a beautiful project at the end of the last sprint.
+ 
 </details>
 
 ---
