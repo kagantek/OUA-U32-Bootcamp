@@ -242,7 +242,13 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
 
-  <details> <summary><h3>Sprint 3 - Game Screenshots</h3></summary>
+  <details> <summary><h3>Sprint 3 - Game Screenshots</h3></summary>  
+  
+   
+
+   https://github.com/user-attachments/assets/d4597731-81fa-4c7d-b5ec-8ebb63e8b9c9
+
+
    
    <img src="https://github.com/user-attachments/assets/811dc42c-ed08-4fb6-aa22-7c1744c6ae4e" alt="Game SS-1" width="800" height="430">
    <img src="https://github.com/user-attachments/assets/81d465f3-d545-4e64-b24b-4744849659c2" alt="Game SS-2" width="800" height="430">
@@ -257,7 +263,8 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    <img src="https://github.com/user-attachments/assets/f8b63de2-d273-45de-9c87-59f370908f1f" alt="Game SS-11" width="800" height="430">
    <img src="https://github.com/user-attachments/assets/349e594d-86a4-4a80-8e60-0cd4fa5b3ace" alt="Game SS-12" width="800" height="430">
    <img src="https://github.com/user-attachments/assets/4e7fbdaa-0590-4cb3-96ae-61210b0b08ba" alt="Game SS-13" width="800" height="430">
-   <img src="https://github.com/user-attachments/assets/a514b254-eed8-42ed-a6bc-d014a0d7fce5" alt="Game SS-14" width="800" height="430">   
+   <img src="https://github.com/user-attachments/assets/a514b254-eed8-42ed-a6bc-d014a0d7fce5" alt="Game SS-14" width="800" height="430">      
+  
   </details>  
    
   <details> <summary><h3>Sprint 3 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary> 
