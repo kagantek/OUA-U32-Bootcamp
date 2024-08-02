@@ -334,7 +334,7 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 ### Game Demo Exe
 
   <a href="https://kerson07.itch.io/grimwood">
-    <img src="https://github.com/user-attachments/assets/9ccfb56e-1174-49bf-ba16-b55e425a241b" alt="Game Demo" width="400" height="275">
+    <img src="https://github.com/user-attachments/assets/9ccfb56e-1174-49bf-ba16-b55e425a241b" alt="Game Demo" width="400" height="200">
 </a>
 
 </details>
