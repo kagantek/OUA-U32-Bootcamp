@@ -64,7 +64,7 @@ Grimwood is a 3D, single-player, fantasy, adventure, role-playing game with thir
 
 # Note to Jury
 
-Our Grimwood game is being developed to be published on the Steam platform, so there are no in-game advertisements.
+Our Grimwood game is being developed to be published on the Steam platform, so there are no in-game advertisements. In fact, our monetization strategy is based on fixed price sales and content extension like DLCs sales of the game.
 
 ---
 
