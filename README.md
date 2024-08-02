@@ -52,7 +52,7 @@ Grimwood is a 3D, single-player, fantasy, adventure, role-playing game with thir
 + Role playing game
 + Dark forest theme
 + Total 5 level regions
-+ Has multiple AI enemy diversity
++ Has multiple AI enemy diversity (NavMesh Agent)
 
 # Target Group
 
