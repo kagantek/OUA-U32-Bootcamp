@@ -321,3 +321,9 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 </details>
 
 ---
+
+# Game Trailer
+
+[![Videoyu İzleyin](https://github.com/user-attachments/assets/31586d2c-c262-45d3-8091-c6325891b78d)](https://www.youtube.com/watch?v=SPOFVdC3AQ0)
+
+
