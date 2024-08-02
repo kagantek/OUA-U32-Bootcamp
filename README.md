@@ -242,6 +242,22 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
 
+  <details> <summary><h3>Sprint 3 - Sprint Board Update Screenshots</h3></summary>
+
+   ![Sprint 3-PB-1](https://github.com/user-attachments/assets/8aee7de9-bba5-46f9-872a-0c3fe90e4220)
+   ![Sprint 3-PB-2](https://github.com/user-attachments/assets/980c008c-16fa-4cc8-8158-9e4c443c2638)
+   ![Sprint 3-PB-3](https://github.com/user-attachments/assets/777d4678-84f9-4e05-9700-cd7654b24c8f)
+   ![Sprint 3-PB-4](https://github.com/user-attachments/assets/01884614-c013-4e55-82e2-943261c8ceb7)
+   ![Sprint 3-PB-5](https://github.com/user-attachments/assets/aa3a58ba-3b8f-4a65-b78f-42368de36d1e)
+    
+  </details>
+
+  <details> <summary><h3>Sprint 3 - Burndown Chart</h3></summary>
+  
+   ![Ekran görüntüsü 2024-08-02 063835](https://github.com/user-attachments/assets/a9faa4cb-43c2-4f21-bf92-9c5f594405ac)
+
+  </details>
+
   ### Sprint Review
   
    + <b>Sprint Review Participants:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`, `İrem Eylül ÖZTEK`, `Kağan TEK`.  
