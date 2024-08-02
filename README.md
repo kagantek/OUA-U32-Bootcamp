@@ -322,8 +322,21 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 
 ---
 
-# Game Trailer
+<details>
+  <summary><h1>Details</h1></summary>
+  
+### Game Trailer
 
-[![Videoyu İzleyin](https://github.com/user-attachments/assets/31586d2c-c262-45d3-8091-c6325891b78d)](https://www.youtube.com/watch?v=SPOFVdC3AQ0)
+<a href="https://www.youtube.com/watch?v=SPOFVdC3AQ0">
+    <img src="https://github.com/user-attachments/assets/31586d2c-c262-45d3-8091-c6325891b78d" alt="Game Trailer" width="400" height="275">
+</a>
+
+### Game Demo Exe
+
+  <a href="https://kerson07.itch.io/grimwood">
+    <img src="https://github.com/user-attachments/assets/9ccfb56e-1174-49bf-ba16-b55e425a241b" alt="Game Demo" width="400" height="275">
+</a>
+
+</details>
 
 
