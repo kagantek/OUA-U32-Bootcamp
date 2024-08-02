@@ -242,6 +242,17 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
 
+  <details> <summary><h3>Sprint 3 - Daily Scrum Meetings Whatsapp, Discord and Kanban Board Screenshots</h3></summary> 
+
+   ![Sprint 3-Communication-1](https://github.com/user-attachments/assets/adeee6bd-765f-4c44-9c64-27cabfd75f53)
+   ![Sprint 3-Communication-2](https://github.com/user-attachments/assets/d0b88814-1d41-4adf-9951-b132782901db)
+   ![Sprint 3-Communication-3](https://github.com/user-attachments/assets/e10ea1b1-5bff-441b-afdd-d5a1dee9899e)
+   ![Sprint 3-Communication-4](https://github.com/user-attachments/assets/68ca06c0-de59-497a-a7c6-3564c39228c3)
+   ![Sprint 3-Communication-5](https://github.com/user-attachments/assets/d3e2c8c9-d780-4017-b8a2-2b17d51c0cea)
+   ![Sprint 3-Communication-6](https://github.com/user-attachments/assets/b7e0d4ee-0826-4b9d-9b5b-6fcb143ae213)  
+
+  </details>
+
   <details> <summary><h3>Sprint 3 - Sprint Board Update Screenshots</h3></summary>
 
    ![Sprint 3-PB-1](https://github.com/user-attachments/assets/8aee7de9-bba5-46f9-872a-0c3fe90e4220)
