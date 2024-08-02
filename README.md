@@ -74,13 +74,13 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
   ### Sprint Notes
   
    + <b>Expected points from user stories for this Sprint:</b> `100 points`.
+   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in   each sprint. It is aimed to complete the process with a total of `600 points`.   
    + <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
    + <b>The applications chosen for Daily Scrum meetings:</b> `Discord` and `Whatsapp`.
    + <b>The process of Daily Scrum meetings:</b> We talked about the project every day via WhatsApp Messenger and had voice meetings every other day via DC. We also shared our screen in DC meetings to control the development and design progress of tasks.
    + <b>The application chosen for project management:</b> `Miro`.
    + <b>The applications chosen for UI design:</b> `Figma` and `Photoshop`.
-   + <b>The applications chosen for Game Logo design:</b> `Blender`.
-   + <b>Point Completion Logic:</b> `(100 points completed)` The first sprint target is `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points`.   
+   + <b>The applications chosen for Game Logo design:</b> `Blender`.   
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`.
    + <b>Designers for this Sprint:</b> `Kerem Aslan URAL`, `İsrafil ERCAN`.
   
@@ -146,11 +146,11 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
    ### Sprint Notes
   
    + <b>Expected points from user stories for this Sprint:</b> `200 points`.
-   +  <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
+   + <b>Point Completion Logic:</b> `(200 points completed)` The first sprint target was `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points`.
+   + <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
    + <b>The process of Daily Scrum meetings:</b> Meetings continued to be held via `WhatsApp Messenger` and `DC`, but `Google Drive` was used to share some large-sized asset files.
    + <b>The applications chosen for Desktop Icon & Team Logo design:</b> `Blender`.
-   + <b>The applications chosen for Logo animation design:</b> `Procreate` and `Blender`.
-   + <b>Point Completion Logic:</b> `(200 points completed)` The first sprint target was `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points`.
+   + <b>The applications chosen for Logo animation design:</b> `Procreate` and `Blender`.   
    + <b>Free 3D asset sources used to add to the scene: `Unity Asset Store`, `Mixamo` and `Sketchfab`
    + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
    + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
@@ -227,6 +227,20 @@ Our Grimwood game is being developed to be published on the Steam platform, so t
 
 <details>
   <summary><h1>Sprint 3</h1></summary>
+
+  ### Sprint Notes
+  
+   + <b>Expected points from user stories for this Sprint:</b> `300 points`.
+   + <b>Point Completion Logic:</b> `(250 points completed)` The first sprint target was `100 points`, the second sprint is `200 points`, and the third sprint is `300 points`. We planned to increase the total points to be completed in each sprint. It is aimed to complete the process with a total of `600 points` and we have completed `550 points` in total.
+   + <b>User Stories are written into product backlogs:</b> `Details of the stories` can be read by clicking on the product backlog items.
+   + <b>The process of Daily Scrum meetings:</b> Meetings continued to be held via `WhatsApp Messenger` and `DC`, but `Google Drive` was used to share some large-sized asset files.
+   + <b>Change in development process:</b> `A simultaneous` development process was abandoned and project development continued `sequentially` at certain periods during the day in order to avoid problems in GitHub.
+   + <b>The applications chosen for Game Trailer Video:</b> `DaVinci Resolve`.
+   + <b>The applications chosen for Fantasy Map design:</b> `Krita`.   
+   + Free generative AI tools used for `concept` and `in game` designs.
+   + <b>Developers for this Sprint:</b> `İrem Eylül ÖZTEK`, `Kağan TEK`, `Kerem Aslan URAL`.
+   + <b>Designers for this Sprint:</b> `İsrafil ERCAN`, `Kerem Aslan URAL`.
+
 </details>
 
 ---
